@@ -53,5 +53,5 @@ The program uses the [`pynput`](https://pypi.org/project/pynput/) library, which
 **Clone the repository**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/simple-keylogger.git
-cd simple-keylogger
+git clone https://github.com/mz-mukhtar/PRODIGY_CS_04.git
+cd PRODIGY_CS_04
