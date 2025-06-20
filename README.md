@@ -19,3 +19,39 @@ It’s commonly used for:
 - Learning how system hooks work
 
 ---
+
+## 🛠️ How It Works
+
+This simple Python keylogger:
+- Runs in the background
+- Listens for each key press
+- Saves every key to a text file (`key_log.txt`)
+- Stops safely when you press `ESC`
+
+The program uses the [`pynput`](https://pypi.org/project/pynput/) library, which allows Python to monitor keyboard events.
+
+---
+
+## Works On
+
+- Windows  
+- Linux (with X11; **not** fully supported on Wayland)  
+- macOS (with appropriate permissions)
+
+---
+
+## Requirements
+
+- Python 3.x
+- `pynput` library
+- (Linux only) `python3-xlib` if needed
+
+---
+
+## Installation
+
+**Clone the repository**
+
+```bash
+git clone https://github.com/YOUR_USERNAME/simple-keylogger.git
+cd simple-keylogger
