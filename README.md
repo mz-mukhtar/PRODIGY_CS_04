@@ -55,3 +55,15 @@ The program uses the [`pynput`](https://pypi.org/project/pynput/) library, which
 ```bash
 git clone https://github.com/mz-mukhtar/PRODIGY_CS_04.git
 cd PRODIGY_CS_04
+```
+
+**Install dependencies**
+
+```bash
+# Install pynput
+pip install pynput
+
+# For Linux: Xlib dependency
+# (only if you get X errors)
+sudo apt-get install python3-xlib
+```
