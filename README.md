@@ -67,3 +67,22 @@ pip install pynput
 # (only if you get X errors)
 sudo apt-get install python3-xlib
 ```
+
+---
+
+## How to use it
+
+```bash
+python3 keylogger.py
+```
+---
+
+## Ethical Use
+
+This tool is for:
+
+- Learning how keyboard hooks work
+- Practicing Python event handling
+- Developing legitimate input-monitoring tools (e.g. hotkey apps)
+
+Never use it to spy on others.
